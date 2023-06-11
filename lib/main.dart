@@ -55,7 +55,7 @@ class _PerguntaAppState extends State<PerguntaApp>{
           title: Text("Perguntas"),
         ),
         body: temPerguntaSelecionada? 
-        QuestionarioWidget(_perguntaSelecionada,respostas, _responder)
+        QuestionarioWidget(_perguntaSelecionada,_perguntas, _responder)
        : ResultadoWidget()
       ),
     );
